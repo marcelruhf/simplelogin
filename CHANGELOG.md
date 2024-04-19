@@ -3,6 +3,7 @@
 ## Updates to List Aliases command - 2024-04-19
 - (feat) Update search functionality to also search by email and description
 - (feat) Update UI naming to match SimpleLogin UI (Note -> Description, Name -> Display Name)
+- (feat) Update filters to support filtering by aliases with and without descriptions
 - (chore) Run "npm audit fix"
 
 ## [Initial Version] - 2023-01-17
