@@ -23,7 +23,10 @@ declare namespace Preferences {
   /** Preferences accessible in the `create_alias` command */
   export type CreateAlias = ExtensionPreferences & {}
   /** Preferences accessible in the `create_random_alias` command */
-  export type CreateRandomAlias = ExtensionPreferences & {}
+  export type CreateRandomAlias = ExtensionPreferences & {
+  /** Prefill Alias Description - Prefill the alias description based on the hostname of the currently active tab in your browser. */
+  "prefill_alias_note": boolean
+}
   /** Preferences accessible in the `list_alias` command */
   export type ListAlias = ExtensionPreferences & {}
 }
